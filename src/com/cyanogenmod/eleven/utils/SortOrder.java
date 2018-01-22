@@ -84,7 +84,7 @@ public final class SortOrder {
         public final static String SONG_ALBUM = MediaStore.Audio.Media.ALBUM;
 
         /* Song sort order year */
-        public final static String SONG_YEAR = MediaStore.Audio.Media.YEAR + " DESC";
+        public final static String SONG_YEAR = MediaStore.Audio.Media.DATE_MODIFIED + " DESC";
 
         /* Song sort order duration */
         public final static String SONG_DURATION = MediaStore.Audio.Media.DURATION + " DESC";
